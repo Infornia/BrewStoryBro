@@ -1,0 +1,1 @@
+../../Cellar/freetype/2.5.5/share/aclocal/freetype2.m4

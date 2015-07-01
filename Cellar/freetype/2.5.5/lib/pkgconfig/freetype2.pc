@@ -1,0 +1,14 @@
+prefix=/Volumes/Data/nfs/zfs-student-5/users/2014/mwilk/.brew/Cellar/freetype/2.5.5
+exec_prefix=/Volumes/Data/nfs/zfs-student-5/users/2014/mwilk/.brew/Cellar/freetype/2.5.5
+libdir=/Volumes/Data/nfs/zfs-student-5/users/2014/mwilk/.brew/Cellar/freetype/2.5.5/lib
+includedir=/Volumes/Data/nfs/zfs-student-5/users/2014/mwilk/.brew/Cellar/freetype/2.5.5/include/freetype2
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 17.4.11
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -lbz2 -L/Volumes/Data/nfs/zfs-student-5/users/2014/mwilk/.brew/Cellar/libpng/1.6.16/lib -lpng16 -lz
+Cflags: -I${includedir}
